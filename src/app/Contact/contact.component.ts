@@ -1,17 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-contact',
-  templateUrl: './ContactComponent.html',
+  templateUrl: "./contact.component.html"
 })
 export class ContactComponent {
   name;
   email;
   message;
+  constructor(){}
 
-  constructor() {}
+  ngOnInit(){}
+  
   submitForm() {
-
-    
+    const message = `My name is ${this.name}`;
+      alert(message);
   }
 }
