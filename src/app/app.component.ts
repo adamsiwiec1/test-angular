@@ -7,6 +7,8 @@ import { Component } from '@angular/core';
   <!-- header -->
   <app-header></app-header>
 
+  <app-home></app-home>
+
   <!-- routes get injected here -->
   <router-outlet></router-outlet>
   

@@ -3,13 +3,19 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-footer',
   template: /*html*/`
-    <footer class="footer">
+    <footer class="footer ">
     <div class="container content has-text-centered">
       <p>Siwiec Consulting LLC <p>
     </div>
     </footer>
   `,
-  styles: []
+  styles: [`
+  
+  
+  
+  
+  
+  `]
 })
 export class FooterComponent implements OnInit {
 
